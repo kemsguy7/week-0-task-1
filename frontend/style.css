@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
-
 
 .head {
     background-image:url(../frontend/images/img1.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 9px;
+    height: 40em;
 }
 
 .header {
@@ -18,21 +19,23 @@
 
 .header > img {
    max-width:20%;
+   height: 20%;
    margin-bottom: 20px;
 }
 
  .welcome-text > h1  {
     color: white;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 7rem;
+    margin-top: 0.5em;
 }
 
 .help-button > button {
     background-color: white;
     margin-top: 20px;
     margin-bottom: 40px;
-    width: 70px;
-    height: 30px;
+    width: 10rem;
+    height: 4rem;
     border-radius: 20px;
 }
 
