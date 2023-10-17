@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head {
+    background-image:url(../frontend/images/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 9px;
+}
+
+.header {
+    margin: auto;
+} 
+
+.header > img {
+   max-width:20%;
+   margin-bottom: 20px;
+}
+
+ .welcome-text > h1  {
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.help-button > button {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;   
+    box-sizing: border-box; 
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    gap: -1px;
+    padding-right: -2px;
+    padding-right: -2px;
+    
+}
+
+.service-item > img {
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.service-button > button{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 16px 1px rgba(0,0,0,0.2);  
+}
+
+.about-intro > img {
+    width: 50px;
+    position: relative;
+    left: 57px;
+    bottom: 20px;
+    margin-bottom: 3px;
+}
+
+.about {
+    background-image: url(images/about-background.png);
+}
+
+.about-text {
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5em 8em;
+}
+
+.about-button {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    clear: both;
+}
+
+.testimonials {
+    margin: 3em 0;
+}
+
+.testimonial-items {
+    padding: auto;
+    margin: 3em auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    
+}
+
+.testimonial-items > img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: inherit;
+    
+}
+
+.contact-us {
+    background-color: #FCFCFC;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    
+}
+
+.contact > img {
+    margin-top: 4em;
+}
+
+.footer {
+    background: #324B29;
+    height: 7em;
+}
